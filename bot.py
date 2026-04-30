@@ -6,7 +6,7 @@ from datetime import datetime
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 CHAT_ID = os.environ.get("CHAT_ID", "")
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_TOKEN = os.environ.get("GH_PAT", "")
 GITHUB_REPO = "spyfer2-ux/upseller-bot"
 COMMANDS_FILE = "commands.json"
 STATUS_FILE = "status.json"
